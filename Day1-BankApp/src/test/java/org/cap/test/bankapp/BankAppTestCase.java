@@ -69,11 +69,11 @@ public class BankAppTestCase {
 		accountService.addAccount(customer, 100);
 	}
 	
-	@Ignore
-	@Test(timeout=3)
-	public void test_myloop(){
-		accountService.myLoop();
-	}
+	/*@Ignore
+	*@Test(timeout=3)
+	*public void test_myloop(){
+	*	accountService.myLoop();
+	}*/
 	
 	
 	
