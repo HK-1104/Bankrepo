@@ -7,7 +7,5 @@ public class AccountUtil {
 	public static int generateAccountNumber(){
 		return accNo++;
 	}
-	private AccountUtil() {
-		
-	}
+	
 }
